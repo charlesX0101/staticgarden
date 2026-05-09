@@ -1,0 +1,52 @@
+{
+  "name": "Static Garden",
+  "url": "https://staticgarden.com",
+  "lang": "en",
+  "title": "Static Garden",
+  "description": "A quiet studio space for learning, creating, and building.",
+  "email": "studio@staticgarden.com",
+  "location": "San Diego, California",
+  "analyticsDomain": "staticgarden.com",
+  "nav": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Studio", "href": "#studio" },
+    { "label": "Static Garden", "href": "#static-garden" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "lanes": [
+    {
+      "name": "Power Chord Theory",
+      "slug": "power-chord-theory",
+      "tag": "Learn",
+      "description": "Groove-based learning and coaching for musicians focused on feel, touch, and real-world practice.",
+      "email": "studio@powerchordtheory.com"
+    },
+    {
+      "name": "Twirl Tape Productions",
+      "slug": "twirl-tape",
+      "tag": "Create",
+      "description": "Production for music recording, podcasting, and video post-production with guidance through the process.",
+      "email": "studio@twirltape.com"
+    },
+    {
+      "name": "Plain Text Support",
+      "slug": "plain-text-support",
+      "tag": "Build",
+      "description": "Website development, SaaS integration, technical support, maintenance, and troubleshooting.",
+      "email": "support@plaintextsupport.com"
+    }
+  ],
+  "studioBrands": [
+    "Soundcraft",
+    "Midas",
+    "Shure",
+    "Sennheiser",
+    "Fender",
+    "Universal Audio",
+    "Yamaha",
+    "Ableton",
+    "Rode",
+    "Sony"
+  ]
+}

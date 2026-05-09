@@ -1,0 +1,27 @@
+<header class="site-header" id="top">
+  <div class="shell header-inner">
+    <a class="brand" href="#home" aria-label="{{ site.name }} home">
+      <img
+        src="/assets/images/logo.png"
+        alt="{{ site.name }}"
+        width="649"
+        height="157"
+      >
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul>
+        {% for item in site.nav %}
+          <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

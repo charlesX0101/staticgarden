@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "eyebrow": "Studio overview",
+    "headline": "A quiet studio space for learning, creating, and building.",
+    "text": "Static Garden is a full-production audio and video studio for artists and content creators. It brings learning, production, and technical support into one working environment built to help ideas take shape."
+  },
+  "learn": {
+    "headline": "Learn",
+    "text": "Static Garden also functions as a learning space. Programs cover groove, musicianship, writing, getting started, gear, podcasting, video editing, and more through free archives and one-on-one support."
+  },
+  "create": {
+    "headline": "Create",
+    "text": "Creation sits at the center of the studio. Clients work with capable tools, practical guidance, and room to develop ideas into finished work with structure and direction."
+  },
+  "build": {
+    "headline": "Build",
+    "text": "Beyond making the work, there is the system around it. Static Garden supports promotion, organization, websites, integrations, maintenance, and troubleshooting so the project can keep moving."
+  },
+  "studio": {
+    "headline": "The Studio",
+    "text": "At its core, Static Garden Studio is a cozy but capable private workshop focused on audio and video post-production. It blends analog and digital tools in a warm environment designed for generating ideas."
+  },
+  "about": {
+    "headline": "Static Garden",
+    "text": "Static Garden is the parent studio and umbrella brand connecting three distinct lanes: Power Chord Theory, Twirl Tape Productions, and Plain Text Support. It exists as a real creative environment where people can learn, create, and build around their work."
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "headline": "Learn, Create, Build",
+    "text": "Static Garden supports people through coaching, production, recording, and the systems that help finished work reach the right audience."
+  },
+  "contact": {
+    "headline": "Contact",
+    "text": "Use contact as a routing point for the studio and each connected lane."
+  }
+}

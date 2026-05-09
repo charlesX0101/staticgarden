@@ -1,0 +1,41 @@
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div class="footer-block">
+      <p class="footer-title">{{ site.name }}</p>
+      <p class="footer-copy">{{ site.description }}</p>
+    </div>
+
+    <div class="footer-block">
+      <p class="footer-label">Navigation</p>
+      <ul class="footer-list">
+        {% for item in site.nav %}
+          <li><a href="{{ item.href }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="footer-block">
+      <p class="footer-label">Creative Lanes</p>
+      <ul class="footer-list">
+        {% for lane in site.lanes %}
+          <li>{{ lane.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="footer-block">
+      <p class="footer-label">Contact</p>
+      <ul class="footer-list">
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        {% for lane in site.lanes %}
+          <li><a href="mailto:{{ lane.email }}">{{ lane.email }}</a></li>
+        {% endfor %}
+        <li>{{ site.location }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="shell footer-bottom">
+    <p>© {{ site.name }}. All rights reserved.</p>
+  </div>
+</footer>

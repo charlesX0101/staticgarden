@@ -1,0 +1,14 @@
+{
+  "name": "static-garden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Garden studio site built with Eleventy",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
